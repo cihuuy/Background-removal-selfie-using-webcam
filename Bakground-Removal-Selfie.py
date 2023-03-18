@@ -11,7 +11,7 @@ cap.set(cv2.CAP_PROP_FPS, 60) #60FPS
 segmentor = SelfiSegmentation()
 fpsReader = cvzone.FPS()
 
-listIMG = os.listdir('Resources')
+listIMG = os.listdir('most-priroda-svet.jpg')
 imgList = []
 for imgPath in listIMG:
     img = cv2.imread(f'Resources/{imgPath}')
